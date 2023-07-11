@@ -1,0 +1,30 @@
+page{
+  background:rgb(240, 248, 255);
+  height:100%;
+}
+
+.all {
+  width: 100%;
+  margin-top: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+.container{
+  background: white;
+  border-radius: 25rpx;
+  width:85%;
+  /* height: 80%; */
+  line-height: 60rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 34rpx;
+  font-weight: 400;
+  font-family: SimSun;
+}
+

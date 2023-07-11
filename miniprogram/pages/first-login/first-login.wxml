@@ -1,0 +1,19 @@
+<!-- 页面根标签 -->
+<view>
+  <!-- background.jpg文件 -->
+  <image class='background' src="../../images/backimage.jpg" mode="aspectFill" />
+</view>
+<!-- 页面其它部分 -->
+<view class="container">
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class="button" style="margin-top:{{marginTop}}px"> <!-- bindtap="newstudent" -->
+    <text>我是新生</text>
+  </button>
+  
+   <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfogongzuo" class="button">
+    <text>工作人员</text>
+  </button>
+</view>
+<view class="bottom">
+  <view style="text-align:center;margin-top:10rpx;">初见人文</view>
+  <view style="text-align:center;margin-top:10rpx;">大学生科技创新实验室(RABID)</view>
+</view>

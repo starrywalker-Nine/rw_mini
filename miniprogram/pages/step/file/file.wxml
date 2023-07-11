@@ -1,0 +1,26 @@
+
+<view  style="text-align: center;"   class="three">请上传缴费凭证</view>
+  <view class="weui-uploader">
+    <view class='pics' wx:for="{{imgs}}" wx:for-item="item" wx:key="*this">
+        <image class='weui-uploader__img' src="{{item}}" data-index="{{index}}" mode="aspectFill" bindtap="previewImg">
+                  <icon type='cancel' class="delete-btn" data-index="{{index}}" catchtap="deleteImg"></icon>
+        </image>
+    </view>
+
+    <view class="tp_cont {{tj_ycang?'':'hide'}}" bindtap="chooseImg">
+      <view  class="tp_add">+</view>
+    </view>
+
+</view>
+
+<view>
+  <button class="but" bindtap="uploadImg">  提交 </button>
+</view>
+
+<view class="ts">
+          <view>
+            注：图片一次最多上传三张！
+          </view>
+        </view>
+
+

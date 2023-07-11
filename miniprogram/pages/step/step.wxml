@@ -1,0 +1,29 @@
+<view class="all">
+  <view class="container">
+    <view style="text-align:center;font-size:36rpx;font-weight:bold;margin-top:20rpx;">信息填写</view>
+    <view>
+      <form bindsubmit="okk">
+        <input name='banji' class="inp" placeholder="班级,如：1" placeholder-class="pla" type="number" confirm-type="next"></input>
+        <view class="divLine" />
+        <input name='sushe' class="inp" placeholder="宿舍号,如：1-317" placeholder-class="pla" type="text" confirm-type="next"></input>
+        <view class="divLine" />
+        <input name='xueyuan' class="inp" placeholder="学院,如：大数据与信息工程学院" placeholder-class="pla" type="text" confirm-type="next"></input>
+        <view class="divLine" />
+        <input name='zhuanye' class="inp" placeholder="专业,如：计算机科学与技术" placeholder-class="pla" type="text" confirm-type="next"></input>
+        <view class="divLine" />
+        <view class="zhu">
+          <view style="font-weight: bold;">
+            注：填写信息之前请点击个人信息确认是否符合
+          </view>
+        </view>
+        <view>
+        <button class="but"  bindtap="upfile">   点击补交缴费凭证 </button>
+        </view>
+        <button class="but" form-type="submit" >
+          提交信息
+        </button>
+      </form>
+    </view>
+  </view>
+</view>
+

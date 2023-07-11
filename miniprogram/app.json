@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/first-login/first-login",
+    "pages/login-s/login-s",
+    "pages/shenhe/shenhe",
+    "pages/shenhe/denglu/denglu",
+    "pages/step/step",
+    "pages/mine/mine",
+    "pages/shenhe/taiozhuan/tiaozhuan",
+    "pages/step/file/file"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "初见人文",
+    "backgroundColor": "#e9e9e9",
+    "backgroundTextStyle": "light",
+    "navigationStyle": "default"
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#3f83cc",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/step/step",
+        "text": "信息填写",
+        "iconPath": "images/icon/1.2.png",
+        "selectedIconPath": "images/icon/1.1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人信息",
+        "iconPath": "images/icon/3.2.png",
+        "selectedIconPath": "images/icon/3.1.png"
+      }
+    ]
+  }
+}

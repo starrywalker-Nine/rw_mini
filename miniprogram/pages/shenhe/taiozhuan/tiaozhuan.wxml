@@ -1,0 +1,7 @@
+<view class="page">
+<view class="viewda" style="padding-top:40rpx;">
+
+<view  bindtap='sh' class="quyu rj">人数查询</view>
+
+</view>
+</view>

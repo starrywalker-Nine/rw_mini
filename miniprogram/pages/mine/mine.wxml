@@ -1,0 +1,18 @@
+<view class="all">
+    <view class="container">
+      <view style="margin-top:20rpx;">
+ 
+        <view style="font-weight:bold;margin-top:10rpx;text-align:center;">
+           个人信息
+        </view>
+        <view style="margin-left:80rpx;">姓名：{{list.sName}}</view>
+        <view style="margin-left:80rpx;">学号：{{list.stuID}}</view>
+        <view style="margin-left:80rpx;">学院：{{list.college}}</view>
+        <view style="margin-left:80rpx;">班级：{{list.major}}{{list.grade}}班</view>
+        <view style="margin-left:80rpx;">宿舍：{{list.dormsID}}</view>
+        <view style="margin-left:50rpx;">身份证：{{list.cardID}}</view>
+       <view style="margin-left:20rpx;" wx:if="{{list.isFinished==true}}">缴费凭证：已上传</view>
+       <view style="margin-left:20rpx;" wx:if="{{list.isFinished==false}}">缴费凭证：未上传</view>
+      </view>
+    </view>
+</view>

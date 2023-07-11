@@ -1,0 +1,27 @@
+<!-- 页面根目录 -->
+<view>
+  <image class="background" src="../../images/backimage.jpg" mode="aspectFill" />
+</view>
+<!-- 输入框及其他部分 -->
+<form bindsubmit="login">
+  <view class="container">
+    <view class="input-group" style="margin-top:{{marginTop}}px;">
+      <view class="input-text">
+        <text>身份证号：</text>
+      </view>
+      <input name="身份证号" type="idcard" confirm-type="done" bindinput="bindEmailInput" />
+    </view>
+    <view class="input-group">
+      <view class="input-text">
+        <text decode="{{true}}" space="emsp">密&emsp;&emsp;码：</text>
+      </view>
+      <input name="密码" type="text" confirm-type="done" password="true" bindinput="bindPasswordInput" />
+    </view>
+    <view>
+      <view>
+        <text class="a">温馨提示：登录密码为身份证后六位</text>
+      </view>
+      </view>
+    <button form-type="submit" class="button">登 录</button>
+  </view>
+</form>

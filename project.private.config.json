@@ -1,0 +1,56 @@
+{
+  "projectname": "WeChat-student-registration-renwen",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "新生登陆",
+          "pathName": "pages/login-s/login-s",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "流程界面",
+          "pathName": "pages/step/step",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "注册界面",
+          "pathName": "pages/login-s/sign/sign",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人信息",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "审核",
+          "pathName": "pages/shenhe/shenhe",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "工作人员登陆",
+          "pathName": "pages/shenhe/denglu/denglu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/step/five/classandquar/rxjy/rxjy",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

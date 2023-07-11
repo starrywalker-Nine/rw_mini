@@ -1,0 +1,65 @@
+/* 图片 */
+.three{
+  margin-top: 27rpx;
+  color:rgb(0,123,167);
+  font-weight: bold;
+}
+.weui-uploader{
+  margin-top: 16rpx;
+}
+.all{
+  background: rgb(240, 248, 255);
+}  
+.tp_add{
+  width: 152rpx;
+  height: 152rpx;
+  border-radius: 10rpx;
+  opacity: 1;
+  border: 2rpx dashed #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 59rpx;
+}
+
+.pics {
+  float:left;
+  position:relative;
+  margin-right:15px;
+  margin-bottom:15px;
+  }
+  .pics image{
+    width: 152rpx;
+    height: 152rpx;
+  }
+  .delete-btn{
+    width: 20rpx;
+    height: 20rpx;
+    position: absolute;
+    top: -15rpx;
+    right: -5rpx;
+  }
+  .weui-uploader{
+    padding: 10rpx;
+  }
+  
+  .but {
+    width: 70%;
+    height: 80rpx;
+    background:rgb(0,123,167);
+    margin: 30rpx 15%;
+    font-size: 30rpx;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.ts {
+  color: red;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
